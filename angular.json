@@ -115,7 +115,7 @@
           "builder": "angular-cli-ghpages:deploy"
         },
         "cypress-run": {
-          "builder": "@briebug/cypress-schematic:cypress",
+          "builder": "@cypress/schematic:cypress",
           "options": {
             "devServerTarget": "mukosoft-app-angular:serve"
           },
@@ -126,7 +126,7 @@
           }
         },
         "cypress-open": {
-          "builder": "@briebug/cypress-schematic:cypress",
+          "builder": "@cypress/schematic:cypress",
           "options": {
             "devServerTarget": "mukosoft-app-angular:serve",
             "watch": true,
@@ -139,7 +139,7 @@
           }
         },
         "e2e": {
-          "builder": "@briebug/cypress-schematic:cypress",
+          "builder": "@cypress/schematic:cypress",
           "options": {
             "devServerTarget": "mukosoft-app-angular:serve",
             "watch": true,
